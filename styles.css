@@ -345,3 +345,31 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+@media screen and (max-width: 600px) {
+    ul.nav-links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    div.background p {
+        width:fit-content;
+    }
+
+  }
+  @media screen and (max-width: 800px) {
+    div.background {
+        height: 350px;    
+    }
+    div.hero-background-pos {
+        left: 70%;
+        
+    }
+    div.snapshot-box-content {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+  
